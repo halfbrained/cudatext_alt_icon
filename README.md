@@ -1,0 +1,1 @@
+CudaText alternative icon
