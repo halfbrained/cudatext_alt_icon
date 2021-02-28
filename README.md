@@ -6,3 +6,9 @@ To get an icon:
 * switch to "Compositing" workspace (top left)
 * select "Viewer" node (pink one)
 * press "Save This Image" button
+
+### /main_flat
+
+Flat variation of the main icon
+
+Two `.png` icons and `.xcf` GIMP source. 
