@@ -1,0 +1,41 @@
+"--" - don't need
+
+* DOC:
+    synchronization - close,open,change(full,incremental)
+    workspaceFolders - project root
+    
+    hover - investigate details
+    signatureHelp - command 
+    GOTOs: declaration, definition, typeDefinition, implementation, references,
+        * make commands 
+    --documentHighlight - usually highlights references    [already have]
+    --documentSymbol - list|hierarchy of doc symbols    [not very useful]
+    --codeAction - fix,beautify, ...    [not very useful]
+    --codeLens - [dont know]
+    --documentLink - doc ~urls    [already have?]
+    --colorProvider - ranges describing colors    [already have]
+    --format doc|range    [already have]
+    --onTypeFormatting ?
+    --rename - ~var rename    [not common]
+    --publishDiagnostics -  [don't know']
+    --foldingRange -        [already have]
+    --selectionRange -      [don't know]
+    --linkedEditingRange - sync-editing     [already have]
+    callHierarchy
+    --semanticTokens - basically lexer-coloring     [already have]
+    --moniker - dont know, investigate
+    
+* Workspace:
+    --applyEdit - batch edits from server       [dont understand]
+    symbol - query workspace symbols 
+    configuration -- investigate    (probably language-specific-project options)
+    (file operations)
+
+* Window:
+    workDoneProgress - seems useless, investigate
+    showMessage
+    showDocument - open a file
+    
+* General:
+    regularExpressions - investigate (not in sublime)
+    markdown - completion/signature formatting
